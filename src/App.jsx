@@ -1,10 +1,11 @@
-import React from 'react'
+import WeatherApp from './Components/WeatherApp'
+import './Components/WeatherApp.css'
 
 const App = () => {
   return (
     <div>
-      <h1>welcome weather app</h1>
-      </div>
+      <WeatherApp />
+    </div>
   )
 }
 
